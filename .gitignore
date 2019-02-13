@@ -4,6 +4,7 @@
 *.so
 
 # Folders
+.vscode/
 _obj
 _test
 
@@ -27,3 +28,6 @@ kernel/
 
 *~
 gominer
+
+vendor/
+
