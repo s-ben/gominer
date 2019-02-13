@@ -74,6 +74,14 @@ $ curl http://localhost:3333/
 
 ## Building
 
+**NOTE:** Go 1.11 introduced [modules](https://github.com/golang/go/wiki/Modules), a new
+dependency management approach, that obviates the need for third party tooling
+such as `dep`.
+
+Usage is simple and nothing is required except Go 1.11. If building in a folder
+under `GOPATH`, it is necessary to explicitly build with modules enabled. For Linux installations, this is implemented in the build commands below. For more information on this requirement, see the[How to Use Modules](https://github.com/golang/go/wiki/Modules#how-to-use-modules) page on the Go wiki.
+
+
 ### Linux
 
 #### Pre-Requisites
